@@ -1,4 +1,5 @@
 ---
+categories: [JAVA, Security]
 tags: [java]
 ---
 
@@ -11,13 +12,13 @@ tags: [java]
   ```json
   {
       "alg":"HS256",  ---加密算法
-      "type","JWT"  ---类型
+      "type":"JWT"  ---类型
   }
   ```
 
 + Payload（有效荷载）：包括携带的用户信息、jwt签发者、过期时间等信息
 
-  ```json
+  ```
   iss: jwt签发者
   sub: jwt所面向的用户
   aud: 接收jwt的一方
