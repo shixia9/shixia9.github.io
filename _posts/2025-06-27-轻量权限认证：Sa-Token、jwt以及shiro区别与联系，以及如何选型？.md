@@ -1,5 +1,4 @@
 ---
-categories: [JAVA, Security]
 tags: [java]
 ---
 
