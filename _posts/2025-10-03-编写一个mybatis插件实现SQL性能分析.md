@@ -107,6 +107,22 @@ public Object plugin(Object target) {
 
 这里会读取参数 200，覆盖默认的100ms；或者通过配置一个`MybatisConfig`配置类去读取`application.yml`当中的配置，用新的配置去覆盖默认的值
 
+```java
+// 慢查询阈值（毫秒）：<= 0 表示全部打印
+private long slowSqlMillis = 100;
+
+@Override
+public void setProperties(Properties properties) {
+    String slow = properties.getProperty("slowSqlMillis");
+    if (slow != null) {
+        try {
+            this.slowSqlMillis = Long.parseLong(slow);
+        } catch (NumberFormatException ignore) {
+        }
+    }
+}
+```
+
 ## 完整代码
 
 ```java
