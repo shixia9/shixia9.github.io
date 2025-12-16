@@ -224,3 +224,11 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: 'G-GP0GLTJ221' # 跟踪ID
+    anonymizeIp: false
