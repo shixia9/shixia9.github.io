@@ -230,5 +230,5 @@ plugins:
 
 jekyll_analytics:
   GoogleAnalytics:
-    id: 'G-GP0GLTJ221' # 跟踪ID
+    id: 'G-1Z3DM1T8FL' # 跟踪ID
     anonymizeIp: false
