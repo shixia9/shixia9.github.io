@@ -14,8 +14,6 @@ order: 4
 
 ## 关于我
 
-> 我是一个绿底白色头顶光环的神秘小猫，仅此而已🐱
-
 
 
 #### 教育
@@ -33,7 +31,7 @@ order: 4
 #### 研究内容
 
 + 深度强化学习
-+ 无人机辅助车联网
++ 无人机路径规划、任务卸载
 
 
 
@@ -48,12 +46,15 @@ order: 4
   - [x] Maven
   - [x] Docker
   - [x] Git
-+ Web
++ **Web**
   - [x] React
   - [x] TypeScript
 + **Python**
   - [x] PyTorch
   - [x] TensorFlow
++ **Vibe Coding**
+  - [x] Claude Code
+  - [x] Stitch
 
 
 
@@ -65,12 +66,6 @@ order: 4
 
 #### 爱好
 
-⚽ *我还是支持拜仁慕尼黑* 🟥🟦
-
-🎬 *什么都爱看的杂食党*
-
-🎮 *单机哥布林 - 龙腾世纪/神界原罪/博德之门/...*
-
-🎵 *Coldplay; Beyoncé; James Blake*
+⚽🎬🎮🎵
 
 
